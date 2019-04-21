@@ -11,6 +11,10 @@
 		42025706226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42025704226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld */; };
 		42025708226C855F00A24AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42025707226C855F00A24AC4 /* Assets.xcassets */; };
 		4202570B226C855F00A24AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42025709226C855F00A24AC4 /* LaunchScreen.storyboard */; };
+		42B8A63C226CA3E800F0DBDF /* AuthorizationContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8A63B226CA3E800F0DBDF /* AuthorizationContracts.swift */; };
+		42B8A63E226CA40600F0DBDF /* AuthorizationPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8A63D226CA40600F0DBDF /* AuthorizationPresentation.swift */; };
+		42B8A640226CA49B00F0DBDF /* AuthorizationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8A63F226CA49B00F0DBDF /* AuthorizationAPI.swift */; };
+		A8D8793C4197132050D0C1C4 /* Pods_AkcadagZiraatOdasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5992F92682BAC69F33EAF304 /* Pods_AkcadagZiraatOdasi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,12 @@
 		42025707226C855F00A24AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4202570A226C855F00A24AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4202570C226C855F00A24AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B8A63B226CA3E800F0DBDF /* AuthorizationContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationContracts.swift; sourceTree = "<group>"; };
+		42B8A63D226CA40600F0DBDF /* AuthorizationPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPresentation.swift; sourceTree = "<group>"; };
+		42B8A63F226CA49B00F0DBDF /* AuthorizationAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationAPI.swift; sourceTree = "<group>"; };
+		5992F92682BAC69F33EAF304 /* Pods_AkcadagZiraatOdasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AkcadagZiraatOdasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF726510A9945C48FF38754 /* Pods-AkcadagZiraatOdasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkcadagZiraatOdasi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AkcadagZiraatOdasi/Pods-AkcadagZiraatOdasi.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB7CF5D8363BC649EED33C9 /* Pods-AkcadagZiraatOdasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkcadagZiraatOdasi.release.xcconfig"; path = "Pods/Target Support Files/Pods-AkcadagZiraatOdasi/Pods-AkcadagZiraatOdasi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D8793C4197132050D0C1C4 /* Pods_AkcadagZiraatOdasi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +49,8 @@
 			children = (
 				420256FC226C854D00A24AC4 /* AkcadagZiraatOdasi */,
 				420256FB226C854D00A24AC4 /* Products */,
+				6A3E8EB1F2F5A818DEC9C160 /* Pods */,
+				DB7A6BB3E92C55CD6F3450A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +88,9 @@
 		42025713226C860A00A24AC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				42B8A63B226CA3E800F0DBDF /* AuthorizationContracts.swift */,
+				42B8A63D226CA40600F0DBDF /* AuthorizationPresentation.swift */,
+				42B8A63F226CA49B00F0DBDF /* AuthorizationAPI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -94,6 +110,23 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		6A3E8EB1F2F5A818DEC9C160 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF726510A9945C48FF38754 /* Pods-AkcadagZiraatOdasi.debug.xcconfig */,
+				9CB7CF5D8363BC649EED33C9 /* Pods-AkcadagZiraatOdasi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB7A6BB3E92C55CD6F3450A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5992F92682BAC69F33EAF304 /* Pods_AkcadagZiraatOdasi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4202570F226C855F00A24AC4 /* Build configuration list for PBXNativeTarget "AkcadagZiraatOdasi" */;
 			buildPhases = (
+				33DDE21380F9A90DDB9B1FEE /* [CP] Check Pods Manifest.lock */,
 				420256F6226C854D00A24AC4 /* Sources */,
 				420256F7226C854D00A24AC4 /* Frameworks */,
 				420256F8226C854D00A24AC4 /* Resources */,
+				B0DE6A361F6C32AB9C677CB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,13 +194,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33DDE21380F9A90DDB9B1FEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AkcadagZiraatOdasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0DE6A361F6C32AB9C677CB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AkcadagZiraatOdasi/Pods-AkcadagZiraatOdasi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AkcadagZiraatOdasi/Pods-AkcadagZiraatOdasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		420256F6226C854D00A24AC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B8A63C226CA3E800F0DBDF /* AuthorizationContracts.swift in Sources */,
 				42025706226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld in Sources */,
 				420256FE226C854D00A24AC4 /* AppDelegate.swift in Sources */,
+				42B8A640226CA49B00F0DBDF /* AuthorizationAPI.swift in Sources */,
+				42B8A63E226CA40600F0DBDF /* AuthorizationPresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +388,12 @@
 		};
 		42025710226C855F00A24AC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF726510A9945C48FF38754 /* Pods-AkcadagZiraatOdasi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9JNTTSY4PD;
+				DEVELOPMENT_TEAM = HNB7BY48WV;
 				INFOPLIST_FILE = AkcadagZiraatOdasi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +401,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Freelance.AkcadagZiraatOdasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,10 +409,12 @@
 		};
 		42025711226C855F00A24AC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB7CF5D8363BC649EED33C9 /* Pods-AkcadagZiraatOdasi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9JNTTSY4PD;
+				DEVELOPMENT_TEAM = HNB7BY48WV;
 				INFOPLIST_FILE = AkcadagZiraatOdasi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -330,6 +422,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Freelance.AkcadagZiraatOdasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
