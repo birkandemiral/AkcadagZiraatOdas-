@@ -52,13 +52,46 @@
 		420256FC226C854D00A24AC4 /* AkcadagZiraatOdasi */ = {
 			isa = PBXGroup;
 			children = (
+				42025715226C861B00A24AC4 /* Controller */,
+				42025714226C861500A24AC4 /* View */,
+				42025713226C860A00A24AC4 /* Model */,
+				42025712226C85F700A24AC4 /* Support */,
+				4202570C226C855F00A24AC4 /* Info.plist */,
+			);
+			path = AkcadagZiraatOdasi;
+			sourceTree = "<group>";
+		};
+		42025712226C85F700A24AC4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				420256FD226C854D00A24AC4 /* AppDelegate.swift */,
 				42025707226C855F00A24AC4 /* Assets.xcassets */,
 				42025709226C855F00A24AC4 /* LaunchScreen.storyboard */,
-				4202570C226C855F00A24AC4 /* Info.plist */,
 				42025704226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld */,
 			);
-			path = AkcadagZiraatOdasi;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		42025713226C860A00A24AC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42025714226C861500A24AC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		42025715226C861B00A24AC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
