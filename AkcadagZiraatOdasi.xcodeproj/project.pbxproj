@@ -7,26 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42005BA5226DDD6C003250C9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005BA4226DDD6C003250C9 /* LoginVC.swift */; };
+		42005BA7226DF122003250C9 /* forgotPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005BA6226DF122003250C9 /* forgotPassVC.swift */; };
+		42005BA9226DF30C003250C9 /* registerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005BA8226DF30C003250C9 /* registerVC.swift */; };
+		42005BAE226E0439003250C9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42005BAD226E0439003250C9 /* SWRevealViewController.m */; };
+		42005BB0226E066C003250C9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005BAF226E066C003250C9 /* HomeVC.swift */; };
+		42005BB2226E0678003250C9 /* SideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42005BB1226E0678003250C9 /* SideVC.swift */; };
 		420256FE226C854D00A24AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420256FD226C854D00A24AC4 /* AppDelegate.swift */; };
 		42025706226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42025704226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld */; };
 		42025708226C855F00A24AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42025707226C855F00A24AC4 /* Assets.xcassets */; };
 		4202570B226C855F00A24AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42025709226C855F00A24AC4 /* LaunchScreen.storyboard */; };
-		42B8A63C226CA3E800F0DBDF /* AuthorizationContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8A63B226CA3E800F0DBDF /* AuthorizationContracts.swift */; };
-		42B8A63E226CA40600F0DBDF /* AuthorizationPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8A63D226CA40600F0DBDF /* AuthorizationPresentation.swift */; };
-		42B8A640226CA49B00F0DBDF /* AuthorizationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8A63F226CA49B00F0DBDF /* AuthorizationAPI.swift */; };
+		42A4032B226DA98A00A4702E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A4032A226DA98A00A4702E /* Main.storyboard */; };
+		42CF7F76226E0B5200F63E09 /* HomeNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF7F75226E0B5200F63E09 /* HomeNavVC.swift */; };
+		42CF7F7B226E47E900F63E09 /* SliderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF7F79226E47E900F63E09 /* SliderTVC.swift */; };
+		42CF7F7C226E47E900F63E09 /* SliderTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CF7F7A226E47E900F63E09 /* SliderTVC.xib */; };
+		42CF7F82226E4A9300F63E09 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CF7F7E226E4A9300F63E09 /* img3.jpg */; };
+		42CF7F83226E4A9300F63E09 /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CF7F7F226E4A9300F63E09 /* img4.jpg */; };
+		42CF7F84226E4A9300F63E09 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CF7F80226E4A9300F63E09 /* img1.jpg */; };
+		42CF7F85226E4A9300F63E09 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CF7F81226E4A9300F63E09 /* img2.jpg */; };
+		42CF7F88226E529D00F63E09 /* HaberPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF7F87226E529D00F63E09 /* HaberPresentation.swift */; };
+		42CF7F8B226E533E00F63E09 /* HaberlerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF7F89226E533E00F63E09 /* HaberlerTVC.swift */; };
+		42CF7F8C226E533E00F63E09 /* HaberlerTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CF7F8A226E533E00F63E09 /* HaberlerTVC.xib */; };
+		42F178D4226DB016009689A4 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F178D3226DB016009689A4 /* LaunchScreenVC.swift */; };
 		A8D8793C4197132050D0C1C4 /* Pods_AkcadagZiraatOdasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5992F92682BAC69F33EAF304 /* Pods_AkcadagZiraatOdasi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42005BA4226DDD6C003250C9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		42005BA6226DF122003250C9 /* forgotPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPassVC.swift; sourceTree = "<group>"; };
+		42005BA8226DF30C003250C9 /* registerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerVC.swift; sourceTree = "<group>"; };
+		42005BAB226E0438003250C9 /* AkcadagZiraatOdasi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AkcadagZiraatOdasi-Bridging-Header.h"; sourceTree = "<group>"; };
+		42005BAC226E0439003250C9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		42005BAD226E0439003250C9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		42005BAF226E066C003250C9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		42005BB1226E0678003250C9 /* SideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideVC.swift; sourceTree = "<group>"; };
 		420256FA226C854D00A24AC4 /* AkcadagZiraatOdasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkcadagZiraatOdasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		420256FD226C854D00A24AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42025705226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AkcadagZiraatOdasi.xcdatamodel; sourceTree = "<group>"; };
 		42025707226C855F00A24AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4202570A226C855F00A24AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4202570C226C855F00A24AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42B8A63B226CA3E800F0DBDF /* AuthorizationContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationContracts.swift; sourceTree = "<group>"; };
-		42B8A63D226CA40600F0DBDF /* AuthorizationPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPresentation.swift; sourceTree = "<group>"; };
-		42B8A63F226CA49B00F0DBDF /* AuthorizationAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationAPI.swift; sourceTree = "<group>"; };
+		42A4032A226DA98A00A4702E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		42CF7F75226E0B5200F63E09 /* HomeNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavVC.swift; sourceTree = "<group>"; };
+		42CF7F79226E47E900F63E09 /* SliderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTVC.swift; sourceTree = "<group>"; };
+		42CF7F7A226E47E900F63E09 /* SliderTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderTVC.xib; sourceTree = "<group>"; };
+		42CF7F7E226E4A9300F63E09 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+		42CF7F7F226E4A9300F63E09 /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		42CF7F80226E4A9300F63E09 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		42CF7F81226E4A9300F63E09 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		42CF7F87226E529D00F63E09 /* HaberPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberPresentation.swift; sourceTree = "<group>"; };
+		42CF7F89226E533E00F63E09 /* HaberlerTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberlerTVC.swift; sourceTree = "<group>"; };
+		42CF7F8A226E533E00F63E09 /* HaberlerTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HaberlerTVC.xib; sourceTree = "<group>"; };
+		42F178D3226DB016009689A4 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
 		5992F92682BAC69F33EAF304 /* Pods_AkcadagZiraatOdasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AkcadagZiraatOdasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF726510A9945C48FF38754 /* Pods-AkcadagZiraatOdasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkcadagZiraatOdasi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AkcadagZiraatOdasi/Pods-AkcadagZiraatOdasi.debug.xcconfig"; sourceTree = "<group>"; };
 		9CB7CF5D8363BC649EED33C9 /* Pods-AkcadagZiraatOdasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkcadagZiraatOdasi.release.xcconfig"; path = "Pods/Target Support Files/Pods-AkcadagZiraatOdasi/Pods-AkcadagZiraatOdasi.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42005BAA226DF50D003250C9 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				42005BA4226DDD6C003250C9 /* LoginVC.swift */,
+				42005BA8226DF30C003250C9 /* registerVC.swift */,
+				42005BA6226DF122003250C9 /* forgotPassVC.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		420256F1226C854C00A24AC4 = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +107,6 @@
 		420256FC226C854D00A24AC4 /* AkcadagZiraatOdasi */ = {
 			isa = PBXGroup;
 			children = (
-				42025715226C861B00A24AC4 /* Controller */,
 				42025714226C861500A24AC4 /* View */,
 				42025713226C860A00A24AC4 /* Model */,
 				42025712226C85F700A24AC4 /* Support */,
@@ -78,9 +119,12 @@
 			isa = PBXGroup;
 			children = (
 				420256FD226C854D00A24AC4 /* AppDelegate.swift */,
+				42005BAC226E0439003250C9 /* SWRevealViewController.h */,
+				42005BAD226E0439003250C9 /* SWRevealViewController.m */,
 				42025707226C855F00A24AC4 /* Assets.xcassets */,
 				42025709226C855F00A24AC4 /* LaunchScreen.storyboard */,
 				42025704226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld */,
+				42005BAB226E0438003250C9 /* AkcadagZiraatOdasi-Bridging-Header.h */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -88,9 +132,7 @@
 		42025713226C860A00A24AC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				42B8A63B226CA3E800F0DBDF /* AuthorizationContracts.swift */,
-				42B8A63D226CA40600F0DBDF /* AuthorizationPresentation.swift */,
-				42B8A63F226CA49B00F0DBDF /* AuthorizationAPI.swift */,
+				42CF7F87226E529D00F63E09 /* HaberPresentation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,16 +140,23 @@
 		42025714226C861500A24AC4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				42A4032A226DA98A00A4702E /* Main.storyboard */,
+				42CF7F80226E4A9300F63E09 /* img1.jpg */,
+				42CF7F81226E4A9300F63E09 /* img2.jpg */,
+				42CF7F7E226E4A9300F63E09 /* img3.jpg */,
+				42CF7F7F226E4A9300F63E09 /* img4.jpg */,
+				42F178D3226DB016009689A4 /* LaunchScreenVC.swift */,
+				42005BAF226E066C003250C9 /* HomeVC.swift */,
+				42CF7F89226E533E00F63E09 /* HaberlerTVC.swift */,
+				42CF7F8A226E533E00F63E09 /* HaberlerTVC.xib */,
+				42CF7F79226E47E900F63E09 /* SliderTVC.swift */,
+				42CF7F7A226E47E900F63E09 /* SliderTVC.xib */,
+				42CF7F75226E0B5200F63E09 /* HomeNavVC.swift */,
+				42005BB1226E0678003250C9 /* SideVC.swift */,
+				42005BAA226DF50D003250C9 /* Authentication */,
 			);
 			name = View;
 			path = "New Group";
-			sourceTree = "<group>";
-		};
-		42025715226C861B00A24AC4 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		6A3E8EB1F2F5A818DEC9C160 /* Pods */ = {
@@ -161,6 +210,12 @@
 				TargetAttributes = {
 					420256F9226C854D00A24AC4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -188,6 +243,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4202570B226C855F00A24AC4 /* LaunchScreen.storyboard in Resources */,
+				42CF7F82226E4A9300F63E09 /* img3.jpg in Resources */,
+				42CF7F84226E4A9300F63E09 /* img1.jpg in Resources */,
+				42A4032B226DA98A00A4702E /* Main.storyboard in Resources */,
+				42CF7F7C226E47E900F63E09 /* SliderTVC.xib in Resources */,
+				42CF7F83226E4A9300F63E09 /* img4.jpg in Resources */,
+				42CF7F85226E4A9300F63E09 /* img2.jpg in Resources */,
+				42CF7F8C226E533E00F63E09 /* HaberlerTVC.xib in Resources */,
 				42025708226C855F00A24AC4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +288,7 @@
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -235,6 +298,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -248,11 +312,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B8A63C226CA3E800F0DBDF /* AuthorizationContracts.swift in Sources */,
+				42CF7F88226E529D00F63E09 /* HaberPresentation.swift in Sources */,
+				42005BA7226DF122003250C9 /* forgotPassVC.swift in Sources */,
+				42005BA9226DF30C003250C9 /* registerVC.swift in Sources */,
 				42025706226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld in Sources */,
+				42005BB2226E0678003250C9 /* SideVC.swift in Sources */,
+				42CF7F8B226E533E00F63E09 /* HaberlerTVC.swift in Sources */,
+				42005BB0226E066C003250C9 /* HomeVC.swift in Sources */,
+				42005BAE226E0439003250C9 /* SWRevealViewController.m in Sources */,
+				42CF7F7B226E47E900F63E09 /* SliderTVC.swift in Sources */,
+				42CF7F76226E0B5200F63E09 /* HomeNavVC.swift in Sources */,
 				420256FE226C854D00A24AC4 /* AppDelegate.swift in Sources */,
-				42B8A640226CA49B00F0DBDF /* AuthorizationAPI.swift in Sources */,
-				42B8A63E226CA40600F0DBDF /* AuthorizationPresentation.swift in Sources */,
+				42F178D4226DB016009689A4 /* LaunchScreenVC.swift in Sources */,
+				42005BA5226DDD6C003250C9 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +463,7 @@
 			baseConfigurationReference = 6DF726510A9945C48FF38754 /* Pods-AkcadagZiraatOdasi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HNB7BY48WV;
@@ -402,6 +475,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Freelance.AkcadagZiraatOdasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AkcadagZiraatOdasi/Support/AkcadagZiraatOdasi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,6 +487,7 @@
 			baseConfigurationReference = 9CB7CF5D8363BC649EED33C9 /* Pods-AkcadagZiraatOdasi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HNB7BY48WV;
@@ -423,6 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Freelance.AkcadagZiraatOdasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AkcadagZiraatOdasi/Support/AkcadagZiraatOdasi-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -8,3 +8,7 @@
 
 import Foundation
 
+
+protocol AuthorizationProtocol {
+    func showUserInfo(_ userInfo: [Login])
+}
