@@ -12,6 +12,17 @@ import SwiftyJSON
 
 import Alamofire
 
+var Haberler: [HaberPresentation] = []
+
+var Duyurular: [HaberPresentation] = []
+
+var Destekler: [HaberPresentation] = []
+
+var Fuar: [HaberPresentation] = []
+
+var Gallery: [GalleryPresentation] = []
+
+
 final class LaunchScreenVC: UIViewController{
     @IBAction func unLogin(_ sender: Any) {
     }
@@ -25,35 +36,84 @@ final class LaunchScreenVC: UIViewController{
     @IBOutlet weak var login: UIButton!
     @IBOutlet weak var register: UIButton!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        let url = "http://karspeynircim.com/codeForTarim/index.php/ServiceController/getContentByCategory?category=haberler"
+    fileprivate func veriCek(_ category: String) {
+        let url = "http://karspeynircim.com/codeForTarim/index.php/ServiceController/getContentByCategory?category=\(category)"
         
         Alamofire.request(url)
             .responseJSON { response in
-
+                
                 let data = response.result.value
                 
                 let json = JSON(data!)
                 
                 for i in json.arrayValue{
                     
-                  let haber = HaberPresentation.init(
-                    body: i["body"].stringValue,
-                    create_date: i["create_date"].stringValue,
-                    header: i["header"].stringValue,
-                    image: "http://karspeynircim.com" + i["image"].stringValue,
-                    id: i["id"].intValue
+                    let haber = HaberPresentation.init(
+                        body: i["body"].stringValue,
+                        create_date: i["create_date"].stringValue,
+                        header: i["header"].stringValue,
+                        image: "http://karspeynircim.com" + i["image"].stringValue,
+                        id: i["id"].intValue
                     )
+                    switch category{
+                    case "haberler":
+                        Haberler.append(haber)
+                        print("Haberler = \(Haberler)")
+                    case "duyurular":
+                        Duyurular.append(haber)
+                        print("Duyurular = \(Duyurular)")
+                    case "destekler":
+                        Destekler.append(haber)
+                        print("Destekler = \(Destekler)")
+                    case "fuarlar":
+                        Fuar.append(haber)
+                        print("Fuar = \(Fuar)")
+                    default:
+                        print("Error")
+                    }
                     
-                    Haberler.append(haber)
+            }
+        }
+    }
+    
+    fileprivate func getGallery() {
+        let url = "http://karspeynircim.com/codeForTarim/index.php/ServiceController/getGalery"
+        
+        Alamofire.request(url)
+            .responseJSON { response in
+                
+                let data = response.result.value
+                
+                let json = JSON(data!)
+                
+                for i in json.arrayValue{
+                    
+                    let image = GalleryPresentation.init(
+                        id: i["id"].stringValue,
+                        header: i["header"].stringValue,
+                        image: "http://karspeynircim.com" + i["image"].stringValue,
+                        gl_id: i["gl_id"].stringValue
+                    )
+                    Gallery.append(image)
                 }
                 
-                print("Haberler: \(Haberler)")
-                
         }
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
+        Haberler.removeAll()
+        Destekler.removeAll()
+        Duyurular.removeAll()
+        Fuar.removeAll()
+        Gallery.removeAll()
+        
+        veriCek("haberler")
+        veriCek("destekler")
+        veriCek("duyurular")
+        veriCek("fuarlar")
+        getGallery()
         
     }
     override func viewWillAppear(_ animated: Bool) {

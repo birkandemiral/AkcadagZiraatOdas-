@@ -8,7 +8,6 @@
 
 import UIKit
 
-var Haberler: [HaberPresentation] = []
 
 class HomeVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     

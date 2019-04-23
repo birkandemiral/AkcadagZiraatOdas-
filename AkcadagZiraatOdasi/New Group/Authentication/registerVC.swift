@@ -10,6 +10,10 @@ import UIKit
 
 import Alamofire
 
+import SVProgressHUD
+
+import SwiftyJSON
+
 class registerVC: UIViewController {
 
     @IBOutlet weak var nameTF: UITextField!
@@ -30,8 +34,16 @@ class registerVC: UIViewController {
         
         Alamofire.request("http://karspeynircim.com/codeForTarim/index.php/ServiceController/saveUser", method: .post, parameters: parameters, encoding: JSONEncoding.default)
             .responseJSON { response in
-                print(response)
-        }
+                
+                let data = response.result.value
+                
+                let json = JSON(data!)
+                
+                if json == true{
+                    SVProgressHUD.showSuccess(withStatus: "Başarılı")
+                }else{
+                    SVProgressHUD.showError(withStatus: "Hata")
+                }        }
     }
     @IBOutlet weak var registerBTN: UIButton!
     override func viewDidLoad() {

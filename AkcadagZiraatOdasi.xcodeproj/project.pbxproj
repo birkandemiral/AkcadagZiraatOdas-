@@ -17,6 +17,8 @@
 		42025706226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42025704226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld */; };
 		42025708226C855F00A24AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42025707226C855F00A24AC4 /* Assets.xcassets */; };
 		4202570B226C855F00A24AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42025709226C855F00A24AC4 /* LaunchScreen.storyboard */; };
+		42596B88226F293F00DBD364 /* ContactNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42596B87226F293F00DBD364 /* ContactNavVC.swift */; };
+		42596B8A226F296600DBD364 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42596B89226F296600DBD364 /* ContactVC.swift */; };
 		42A4032B226DA98A00A4702E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A4032A226DA98A00A4702E /* Main.storyboard */; };
 		42CF7F76226E0B5200F63E09 /* HomeNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF7F75226E0B5200F63E09 /* HomeNavVC.swift */; };
 		42CF7F7B226E47E900F63E09 /* SliderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF7F79226E47E900F63E09 /* SliderTVC.swift */; };
@@ -28,6 +30,13 @@
 		42CF7F88226E529D00F63E09 /* HaberPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF7F87226E529D00F63E09 /* HaberPresentation.swift */; };
 		42CF7F8B226E533E00F63E09 /* HaberlerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF7F89226E533E00F63E09 /* HaberlerTVC.swift */; };
 		42CF7F8C226E533E00F63E09 /* HaberlerTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CF7F8A226E533E00F63E09 /* HaberlerTVC.xib */; };
+		42EA7483226EF3170051FBAC /* tableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA7482226EF3170051FBAC /* tableViewVC.swift */; };
+		42EA7485226EF3400051FBAC /* tableViewNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA7484226EF3400051FBAC /* tableViewNavVC.swift */; };
+		42EA7487226F052F0051FBAC /* GalleryPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA7486226F052F0051FBAC /* GalleryPresentation.swift */; };
+		42EA748C226F0A720051FBAC /* GalleryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA748A226F0A720051FBAC /* GalleryTVC.swift */; };
+		42EA748D226F0A720051FBAC /* GalleryTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42EA748B226F0A720051FBAC /* GalleryTVC.xib */; };
+		42EA7492226F14360051FBAC /* GalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA7491226F14360051FBAC /* GalleryVC.swift */; };
+		42EA7494226F148B0051FBAC /* GalleryNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EA7493226F148B0051FBAC /* GalleryNavVC.swift */; };
 		42F178D4226DB016009689A4 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F178D3226DB016009689A4 /* LaunchScreenVC.swift */; };
 		A8D8793C4197132050D0C1C4 /* Pods_AkcadagZiraatOdasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5992F92682BAC69F33EAF304 /* Pods_AkcadagZiraatOdasi.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +56,8 @@
 		42025707226C855F00A24AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4202570A226C855F00A24AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4202570C226C855F00A24AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42596B87226F293F00DBD364 /* ContactNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactNavVC.swift; sourceTree = "<group>"; };
+		42596B89226F296600DBD364 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
 		42A4032A226DA98A00A4702E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		42CF7F75226E0B5200F63E09 /* HomeNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavVC.swift; sourceTree = "<group>"; };
 		42CF7F79226E47E900F63E09 /* SliderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTVC.swift; sourceTree = "<group>"; };
@@ -58,6 +69,13 @@
 		42CF7F87226E529D00F63E09 /* HaberPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberPresentation.swift; sourceTree = "<group>"; };
 		42CF7F89226E533E00F63E09 /* HaberlerTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberlerTVC.swift; sourceTree = "<group>"; };
 		42CF7F8A226E533E00F63E09 /* HaberlerTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HaberlerTVC.xib; sourceTree = "<group>"; };
+		42EA7482226EF3170051FBAC /* tableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewVC.swift; sourceTree = "<group>"; };
+		42EA7484226EF3400051FBAC /* tableViewNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewNavVC.swift; sourceTree = "<group>"; };
+		42EA7486226F052F0051FBAC /* GalleryPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPresentation.swift; sourceTree = "<group>"; };
+		42EA748A226F0A720051FBAC /* GalleryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryTVC.swift; sourceTree = "<group>"; };
+		42EA748B226F0A720051FBAC /* GalleryTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryTVC.xib; sourceTree = "<group>"; };
+		42EA7491226F14360051FBAC /* GalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryVC.swift; sourceTree = "<group>"; };
+		42EA7493226F148B0051FBAC /* GalleryNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryNavVC.swift; sourceTree = "<group>"; };
 		42F178D3226DB016009689A4 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
 		5992F92682BAC69F33EAF304 /* Pods_AkcadagZiraatOdasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AkcadagZiraatOdasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF726510A9945C48FF38754 /* Pods-AkcadagZiraatOdasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkcadagZiraatOdasi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AkcadagZiraatOdasi/Pods-AkcadagZiraatOdasi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				42CF7F87226E529D00F63E09 /* HaberPresentation.swift */,
+				42EA7486226F052F0051FBAC /* GalleryPresentation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,16 +166,57 @@
 				42CF7F7F226E4A9300F63E09 /* img4.jpg */,
 				42F178D3226DB016009689A4 /* LaunchScreenVC.swift */,
 				42005BAF226E066C003250C9 /* HomeVC.swift */,
-				42CF7F89226E533E00F63E09 /* HaberlerTVC.swift */,
-				42CF7F8A226E533E00F63E09 /* HaberlerTVC.xib */,
-				42CF7F79226E47E900F63E09 /* SliderTVC.swift */,
-				42CF7F7A226E47E900F63E09 /* SliderTVC.xib */,
+				42770D3C226F5F530097472A /* İletişim */,
+				42EA748E226F0CEA0051FBAC /* HaberlerView */,
+				42EA748F226F0D060051FBAC /* GalleryView */,
+				42EA7490226F0D170051FBAC /* Slider */,
 				42CF7F75226E0B5200F63E09 /* HomeNavVC.swift */,
 				42005BB1226E0678003250C9 /* SideVC.swift */,
 				42005BAA226DF50D003250C9 /* Authentication */,
 			);
 			name = View;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		42770D3C226F5F530097472A /* İletişim */ = {
+			isa = PBXGroup;
+			children = (
+				42596B87226F293F00DBD364 /* ContactNavVC.swift */,
+				42596B89226F296600DBD364 /* ContactVC.swift */,
+			);
+			name = "İletişim";
+			path = "İletişim";
+			sourceTree = "<group>";
+		};
+		42EA748E226F0CEA0051FBAC /* HaberlerView */ = {
+			isa = PBXGroup;
+			children = (
+				42CF7F89226E533E00F63E09 /* HaberlerTVC.swift */,
+				42CF7F8A226E533E00F63E09 /* HaberlerTVC.xib */,
+				42EA7482226EF3170051FBAC /* tableViewVC.swift */,
+				42EA7484226EF3400051FBAC /* tableViewNavVC.swift */,
+			);
+			path = HaberlerView;
+			sourceTree = "<group>";
+		};
+		42EA748F226F0D060051FBAC /* GalleryView */ = {
+			isa = PBXGroup;
+			children = (
+				42EA748A226F0A720051FBAC /* GalleryTVC.swift */,
+				42EA748B226F0A720051FBAC /* GalleryTVC.xib */,
+				42EA7491226F14360051FBAC /* GalleryVC.swift */,
+				42EA7493226F148B0051FBAC /* GalleryNavVC.swift */,
+			);
+			path = GalleryView;
+			sourceTree = "<group>";
+		};
+		42EA7490226F0D170051FBAC /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				42CF7F79226E47E900F63E09 /* SliderTVC.swift */,
+				42CF7F7A226E47E900F63E09 /* SliderTVC.xib */,
+			);
+			path = Slider;
 			sourceTree = "<group>";
 		};
 		6A3E8EB1F2F5A818DEC9C160 /* Pods */ = {
@@ -244,6 +304,7 @@
 			files = (
 				4202570B226C855F00A24AC4 /* LaunchScreen.storyboard in Resources */,
 				42CF7F82226E4A9300F63E09 /* img3.jpg in Resources */,
+				42EA748D226F0A720051FBAC /* GalleryTVC.xib in Resources */,
 				42CF7F84226E4A9300F63E09 /* img1.jpg in Resources */,
 				42A4032B226DA98A00A4702E /* Main.storyboard in Resources */,
 				42CF7F7C226E47E900F63E09 /* SliderTVC.xib in Resources */,
@@ -312,19 +373,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EA7487226F052F0051FBAC /* GalleryPresentation.swift in Sources */,
+				42EA7483226EF3170051FBAC /* tableViewVC.swift in Sources */,
 				42CF7F88226E529D00F63E09 /* HaberPresentation.swift in Sources */,
 				42005BA7226DF122003250C9 /* forgotPassVC.swift in Sources */,
 				42005BA9226DF30C003250C9 /* registerVC.swift in Sources */,
 				42025706226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld in Sources */,
 				42005BB2226E0678003250C9 /* SideVC.swift in Sources */,
+				42EA7492226F14360051FBAC /* GalleryVC.swift in Sources */,
+				42EA7485226EF3400051FBAC /* tableViewNavVC.swift in Sources */,
 				42CF7F8B226E533E00F63E09 /* HaberlerTVC.swift in Sources */,
 				42005BB0226E066C003250C9 /* HomeVC.swift in Sources */,
 				42005BAE226E0439003250C9 /* SWRevealViewController.m in Sources */,
+				42596B8A226F296600DBD364 /* ContactVC.swift in Sources */,
 				42CF7F7B226E47E900F63E09 /* SliderTVC.swift in Sources */,
 				42CF7F76226E0B5200F63E09 /* HomeNavVC.swift in Sources */,
 				420256FE226C854D00A24AC4 /* AppDelegate.swift in Sources */,
+				42EA748C226F0A720051FBAC /* GalleryTVC.swift in Sources */,
 				42F178D4226DB016009689A4 /* LaunchScreenVC.swift in Sources */,
 				42005BA5226DDD6C003250C9 /* LoginVC.swift in Sources */,
+				42EA7494226F148B0051FBAC /* GalleryNavVC.swift in Sources */,
+				42596B88226F293F00DBD364 /* ContactNavVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

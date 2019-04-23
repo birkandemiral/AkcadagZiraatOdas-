@@ -10,6 +10,10 @@ import UIKit
 
 import Alamofire
 
+import SwiftyJSON
+
+import SVProgressHUD
+
 class forgotPassVC: UIViewController {
 
     @IBOutlet weak var ePostaTF: UITextField!
@@ -19,8 +23,16 @@ class forgotPassVC: UIViewController {
         
         Alamofire.request("http://karspeynircim.com/codeForTarim/index.php/ServiceController/userforgotPassword", method: .post, parameters: parameters, encoding: JSONEncoding.default)
             .responseJSON { response in
-                print(response)
-        }
+                
+                let data = response.result.value
+                
+                let json = JSON(data!)
+                
+                if json == true{
+                    SVProgressHUD.showSuccess(withStatus: "Başarılı")
+                }else{
+                    SVProgressHUD.showError(withStatus: "Hata")
+                }        }
         
     }
     override func viewDidLoad() {
