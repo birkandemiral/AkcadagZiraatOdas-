@@ -17,6 +17,8 @@
 		42025706226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42025704226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld */; };
 		42025708226C855F00A24AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42025707226C855F00A24AC4 /* Assets.xcassets */; };
 		4202570B226C855F00A24AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42025709226C855F00A24AC4 /* LaunchScreen.storyboard */; };
+		4222F02F226F9654008690FD /* YonetimKuruluVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4222F02E226F9654008690FD /* YonetimKuruluVC.swift */; };
+		4222F031226F966A008690FD /* YonetimKuruluNavVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4222F030226F966A008690FD /* YonetimKuruluNavVCViewController.swift */; };
 		42596B88226F293F00DBD364 /* ContactNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42596B87226F293F00DBD364 /* ContactNavVC.swift */; };
 		42596B8A226F296600DBD364 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42596B89226F296600DBD364 /* ContactVC.swift */; };
 		42A4032B226DA98A00A4702E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A4032A226DA98A00A4702E /* Main.storyboard */; };
@@ -56,6 +58,8 @@
 		42025707226C855F00A24AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4202570A226C855F00A24AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4202570C226C855F00A24AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4222F02E226F9654008690FD /* YonetimKuruluVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonetimKuruluVC.swift; sourceTree = "<group>"; };
+		4222F030226F966A008690FD /* YonetimKuruluNavVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonetimKuruluNavVCViewController.swift; sourceTree = "<group>"; };
 		42596B87226F293F00DBD364 /* ContactNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactNavVC.swift; sourceTree = "<group>"; };
 		42596B89226F296600DBD364 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
 		42A4032A226DA98A00A4702E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				42CF7F7F226E4A9300F63E09 /* img4.jpg */,
 				42F178D3226DB016009689A4 /* LaunchScreenVC.swift */,
 				42005BAF226E066C003250C9 /* HomeVC.swift */,
+				4222F02E226F9654008690FD /* YonetimKuruluVC.swift */,
+				4222F030226F966A008690FD /* YonetimKuruluNavVCViewController.swift */,
 				42770D3C226F5F530097472A /* İletişim */,
 				42EA748E226F0CEA0051FBAC /* HaberlerView */,
 				42EA748F226F0D060051FBAC /* GalleryView */,
@@ -377,6 +383,7 @@
 				42EA7483226EF3170051FBAC /* tableViewVC.swift in Sources */,
 				42CF7F88226E529D00F63E09 /* HaberPresentation.swift in Sources */,
 				42005BA7226DF122003250C9 /* forgotPassVC.swift in Sources */,
+				4222F02F226F9654008690FD /* YonetimKuruluVC.swift in Sources */,
 				42005BA9226DF30C003250C9 /* registerVC.swift in Sources */,
 				42025706226C854D00A24AC4 /* AkcadagZiraatOdasi.xcdatamodeld in Sources */,
 				42005BB2226E0678003250C9 /* SideVC.swift in Sources */,
@@ -394,6 +401,7 @@
 				42005BA5226DDD6C003250C9 /* LoginVC.swift in Sources */,
 				42EA7494226F148B0051FBAC /* GalleryNavVC.swift in Sources */,
 				42596B88226F293F00DBD364 /* ContactNavVC.swift in Sources */,
+				4222F031226F966A008690FD /* YonetimKuruluNavVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,6 +38,8 @@ class SideVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         switch indexPath.row {
         case 0:
             self.performSegue(withIdentifier: "HomeNavVC", sender: self)
+        case 1:
+            self.performSegue(withIdentifier: "yonetimKurulu", sender: self)
         case 2:
             tag = 0
             self.performSegue(withIdentifier: "Haberler", sender: self)

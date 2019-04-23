@@ -195,6 +195,7 @@
                         <segue destination="i0Q-Tp-Uae" kind="custom" identifier="Gallery" customClass="SWRevealViewControllerSeguePushController" id="L5T-hj-Bpp"/>
                         <segue destination="m6U-ab-vH7" kind="custom" identifier="iletisim" customClass="SWRevealViewControllerSeguePushController" id="pM3-2e-hJo"/>
                         <segue destination="m6U-ab-vH7" kind="custom" identifier="ziraat" customClass="SWRevealViewControllerSeguePushController" id="oQe-bU-lY4"/>
+                        <segue destination="ciD-0b-xtV" kind="custom" identifier="yonetimKurulu" customClass="SWRevealViewControllerSeguePushController" id="abk-Py-1su"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nKn-VH-wsu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1037,6 +1038,91 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jSm-Gh-Zgn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="10137" y="-426"/>
+        </scene>
+        <!--Yönetim Kurulu-->
+        <scene sceneID="fHo-LT-Edg">
+            <objects>
+                <viewController storyboardIdentifier="YonetimKuruluVC" id="TGJ-80-dSX" customClass="YonetimKuruluVC" customModule="AkcadagZiraatOdasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uZq-Og-9kM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wYF-bv-hOx">
+                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="o7y-1b-SAP" detailTextLabel="jbC-QT-CH3" rowHeight="56" style="IBUITableViewCellStyleSubtitle" id="A3U-Yj-UFv">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A3U-Yj-UFv" id="w6s-BD-Jnq">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="55.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o7y-1b-SAP">
+                                                    <rect key="frame" x="15" y="8.9999999999999982" width="33.333333333333336" height="20.333333333333332"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jbC-QT-CH3">
+                                                    <rect key="frame" x="14.999999999999996" y="31.333333333333332" width="43.666666666666664" height="14.333333333333334"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="TGJ-80-dSX" id="GoT-Gd-at3"/>
+                                    <outlet property="delegate" destination="TGJ-80-dSX" id="cCx-Yt-tUm"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wYF-bv-hOx" firstAttribute="leading" secondItem="vdj-wj-eat" secondAttribute="leading" id="INt-Fn-J0h"/>
+                            <constraint firstItem="wYF-bv-hOx" firstAttribute="top" secondItem="vdj-wj-eat" secondAttribute="top" id="O6z-tO-krH"/>
+                            <constraint firstItem="vdj-wj-eat" firstAttribute="trailing" secondItem="wYF-bv-hOx" secondAttribute="trailing" id="okT-4M-waN"/>
+                            <constraint firstItem="vdj-wj-eat" firstAttribute="bottom" secondItem="wYF-bv-hOx" secondAttribute="bottom" id="wEC-uI-YNI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vdj-wj-eat"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yönetim Kurulu" id="zQB-16-ys9">
+                        <barButtonItem key="leftBarButtonItem" image="sideMenuIcon" id="16c-Jc-YVZ"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sideBarBTN" destination="16c-Jc-YVZ" id="l2f-l2-Oda"/>
+                        <outlet property="tableView" destination="wYF-bv-hOx" id="THO-db-hhs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yc1-eP-MJ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7349.6000000000004" y="-1309.3596059113302"/>
+        </scene>
+        <!--Yonetim Kurulu NavVC View Controller-->
+        <scene sceneID="2SE-YI-9jB">
+            <objects>
+                <navigationController storyboardIdentifier="YonetimKuruluNavVCViewController" automaticallyAdjustsScrollViewInsets="NO" id="ciD-0b-xtV" customClass="YonetimKuruluNavVCViewController" customModule="AkcadagZiraatOdasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TEh-zL-NMT">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="19"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TGJ-80-dSX" kind="relationship" relationship="rootViewController" id="FZ9-8u-4Bh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nPE-QN-T3r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6486" y="-1309"/>
         </scene>
     </scenes>
     <resources>
